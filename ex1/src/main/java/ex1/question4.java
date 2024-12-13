@@ -3,10 +3,9 @@ package ex1;
 public class question4 {
 	
  public static String compare(double a,double b,String mod) {
-	 if ((int) b >= 0 && (int) b <= 127 && Character.isLetter((char) b)||Character.isLetter((char) a)) {
-	   return "Error"; // אם מדובר בתו חוקי
-		}
-	
+     if ((int) b >= 0 && (int) b <= 127 && Character.isLetter((char) b)||Character.isLetter((char) a)) {
+         return "Error"; // אם מדובר בתו חוקי
+		} 
 	    // בדיקה אם אחד המספרים מחולק ב-0
 	    if (a == 0 || b == 0) {
 	        if ("reciprocal".equals(mod)) {
